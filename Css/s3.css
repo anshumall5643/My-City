@@ -26,6 +26,7 @@ nav .logo{
   width: 25%;
   text-align: center;
   color:rgb(46, 100, 161);
+    font-size: 0.7rem;
 }
   
 nav .menu{
@@ -39,6 +40,12 @@ nav .menu a{
     text-decoration: none;
     color: white;
     font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+    nav .menu a{
+        font-size: 0.7rem;
+    }
 }
 
 .menu a:hover{
