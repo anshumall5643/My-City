@@ -111,14 +111,6 @@ section .btn1{
     background:rgba(95, 158, 160, 0.767);
     color: white;
 }
-section .btn2{
-    background: white;
-    color: black;
-}
-.btn2:hover{
-    background:rgba(95, 158, 160, 0.767);
-    color: white;
-}
 
 .wrapper{
    background-repeat: no-repeat;
@@ -231,19 +223,25 @@ h3{
     text-shadow: 1px 1px 1px black;
 }
 
-
-
-
 /*contact */
+
 #bg{
     background-image: linear-gradient(rgba(16, 49, 71, 0.4),rgba(19, 124, 98, 0.9));
 }
+
 #t{
     padding-top: 25px;
     padding-left: 50px;
     padding-bottom: 30px;
     margin-left: 10%;
 }
+
+@media screen and (max-width: 480px) {
+    #t{
+       margin-left:0%;
+    }
+}
+
 table{
     background-image: linear-gradient(rgba(18, 34, 30, 0.5),rgba(33, 50, 51, 0.15));
     border:2px solid black;
@@ -258,32 +256,15 @@ table{
     text-align: center;
     align-items: center;
 }
+
 caption{
     text-transform: uppercase;
     color: black;
 }
+
 .c{
    color: black;
 }
-.btn4{
-    padding: 5px 5px;
-    border-radius: 4px;
-    outline: none;
-    margin:500px;
-    background: white;
-    color: black;
-    text-transform: uppercase;
-    font-size: 15px;
-    font-weight: 500;
-    text-decoration: none;
-    letter-spacing: 1px;
-    transition: all 0.5s ease;
-}
-.btn4:hover{
-    background:rgba(95, 158, 160, 0.767);
-    color: white;
-}
-
   
 
 /* Gallery PageStyle */
@@ -297,7 +278,6 @@ caption{
 }
 
 .imgs{
-    
     color: white;
     width: 400px !important;
     height: 300px;
@@ -306,8 +286,6 @@ caption{
     padding: 5px;
     background-color: white;
     background-repeat: no-repeat;
-    /* background-size: 400px 300px; */
     margin-left: 5px;
     margin-right: 5px;
-
 }
